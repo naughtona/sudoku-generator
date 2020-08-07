@@ -33,7 +33,7 @@ Which option would you like to take?
 ```
 From there, you can generate as many Sudoku puzzles as you like, as well as view their unique solutions should you elect to do so.
 
-When you are finished, you can clean your directory of its `.o` files, including `sudogen` with the following:
+When you are finished, you can clean your directory of its `.o` files, including `sudogen`, with the following:
 ```bash
 make clean
 ```
