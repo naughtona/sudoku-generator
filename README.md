@@ -13,7 +13,7 @@ The method behind generating random Sudoku puzzles that are guaranteed to have a
 - Solve the remainder of the puzzle, using AC3 and Backtracking to get a complete Sudoku
 - Repeatedly erase the numbers of currently assigned cells (picked at random) one at a time, until it is observed that to go any further would render the puzzle solvable by more than one solution
 ## Getting started
-To compile and run the program, type the following in your terminal:
+To compile the program, type the following in your terminal:
 ```bash
 make
 ```
