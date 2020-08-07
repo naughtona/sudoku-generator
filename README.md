@@ -1,7 +1,7 @@
 # Sudoku Generator
-A program that treats the logic-based, combinatorial, number placement puzzle game, [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzle game as a Constraint Satisfaction Problem (CSP) and consequently leverages algorithms Arc Consistency (AC-3) and Backtracking.
+A program that treats the logic-based, combinatorial, number placement puzzle game, [Sudoku](https://en.wikipedia.org/wiki/Sudoku), as a Constraint Satisfaction Problem (CSP) and consequently leverages solving algorithms Arc Consistency (AC-3) and Backtracking.
 
-The user drives this program from their command line, where they can generate as many random Sudoku puzzles as desired and even peak their solutions. Each puzzle that is created is guaranteed to have a unique solution (see method for algorithm).
+The user drives this program from their command line, where they can generate as many random Sudoku puzzles as desired and even peak at solutions. **Note** that each puzzle that is created is guaranteed to have a unique solution (see method for algorithm).
 
 Additionally, the user can choose from the following three levels of Sudoku puzzle difficulties:
 - ``Easy`` : 35 known cells
@@ -87,6 +87,6 @@ Below are some examples of output that is produced for each difficulty level.
 | 1       |    9    |    8  7 |
 +---------+---------+---------+
 ```
-Note that it usually takes ~10 seconds to generate the hard puzzle.
+**Note** that it usually takes ~10 seconds to generate the hard puzzle.
 # License
 [MIT](https://choosealicense.com/licenses/mit/)
